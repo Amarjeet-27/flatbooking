@@ -30,10 +30,6 @@ const Colleges = () => {
               slidesPerView: 4,
               spaceBetween: 40,
             },
-            // 1024: {
-            //   slidesPerView: 5,
-            //   spaceBetween: 50,
-            // },
           }}
           spaceBetween={30}
           freeMode={true}

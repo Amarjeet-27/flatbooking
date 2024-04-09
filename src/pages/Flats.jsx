@@ -14,7 +14,7 @@ import { FreeMode, Pagination } from "swiper/modules";
 const Flats = () => {
   return (
     <div className="section">
-      <h2 style={{ fontWeight: 600 }}>Flats and Hostels</h2>
+      <h2 style={{ fontWeight: 600 }}>Explore Flats and Hostels</h2>
       <div>
         <Swiper
           slidesPerView={1}
@@ -27,10 +27,6 @@ const Flats = () => {
               slidesPerView: 4,
               spaceBetween: 40,
             },
-            // 1024: {
-            //   slidesPerView: 5,
-            //   spaceBetween: 50,
-            // },
           }}
           spaceBetween={30}
           freeMode={true}

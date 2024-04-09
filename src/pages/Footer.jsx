@@ -3,18 +3,15 @@ import List from "./List";
 
 const Footer = () => {
   return (
-    <div className="" style={{ background: "#003b72", paddingTop: 10 }}>
+    <div
+      id="footer"
+      className="footer"
+      style={{ background: "#003b72", paddingTop: 10 }}
+    >
       <h1 style={{ textAlign: "center", color: "white", marginBottom: 15 }}>
         Contact Here
       </h1>
-      <div
-        style={{
-          display: "flex",
-          paddingLeft: 80,
-          paddingRight: 80,
-          justifyContent: "space-around",
-        }}
-      >
+      <div className="footercontent">
         <ul>
           <List prop="Amarjeet Chaurasia" />
           <List prop="0987654321" />
