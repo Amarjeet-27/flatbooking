@@ -1,30 +1,30 @@
 const flatDatas = [
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Galgotia",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Amity",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Sharda",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "GBU",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Noida",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Noida",
   },
   {
-    image: "/286273.jpg",
+    image: "/flat1.jpg",
     name: "Noida",
   },
 ];

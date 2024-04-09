@@ -75,7 +75,7 @@
     background-size: cover;
     object-fit: cover;
     margin: 0 auto;
-    width: 90vw;
+    width: 100vw;
     top: 0;
     position: relative;
     border-radius: 10px;
@@ -104,10 +104,13 @@
     }
   }
   @media screen and (max-width: 480px) {
+    .hero{
+      height: 60vh;
+    }
     .hero .heroinfo{
-      left: 30px;
+      left: 50px;
       width: 300px;
-      top:120px;
+      top:80px;
     }
    .footer .footercontent{
       padding: 0 20px;
