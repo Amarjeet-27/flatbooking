@@ -1,9 +1,12 @@
 import React from "react";
+import List from "./List";
 
 const Footer = () => {
   return (
-    <div className="" style={{ background: "#003b72" }}>
-      <h1 style={{ textAlign: "center", color: "white" }}>Contact Here</h1>
+    <div className="" style={{ background: "#003b72", paddingTop: 10 }}>
+      <h1 style={{ textAlign: "center", color: "white", marginBottom: 15 }}>
+        Contact Here
+      </h1>
       <div
         style={{
           display: "flex",
@@ -12,16 +15,14 @@ const Footer = () => {
           justifyContent: "space-around",
         }}
       >
-        <ul style={{ color: "white", listStyle: "none" }}>
-          <li style={{ marginBottom: 10, fontSize: 20 }}>Amarjeet</li>
-          <li style={{ marginBottom: 10, fontSize: 20 }}>0987654321</li>
-          <li style={{ marginBottom: 10, fontSize: 20 }}>
-            ajchaurasia1214@gmail.com
-          </li>
+        <ul>
+          <List prop="Amarjeet Chaurasia" />
+          <List prop="0987654321" />
+          <List prop=" ajchaurasia1214@gmail.com" />
         </ul>
-        <ul style={{ color: "white", listStyle: "none" }}>
-          <li style={{ marginBottom: 10, fontSize: 20 }}>Instagram</li>
-          <li style={{ marginBottom: 10, fontSize: 20 }}>Facebook</li>
+        <ul>
+          <List prop="Instagram" />
+          <List prop="Facebook" />
         </ul>
       </div>
     </div>

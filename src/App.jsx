@@ -14,7 +14,7 @@ function App() {
           color: "white",
           position: "sticky",
           top: 0,
-          zIndex: 1,
+          zIndex: 100,
           padding: 1,
         }}
       >
